@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Front End Test</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>	
+
+	<header>
+
+		<h1>Storm Front-End Test</h1>
+
+		<button id="popup" onclick="div_show()">Sign Up For Updates</button>
+
+	</header>
+
+	<div id="light" class="white_content">
+
+		<form action="#" id="form" method="post" name="form">
+				
+			<p id="close" onclick ="div_hide()">X</p>
+
+			<h2>Updates</h2>
+
+			<p>Fill Out This Form To Recieve Updates!</p>
+				
+			<input id="name" name="name" placeholder="Enter Your Name" type="text">
+			
+			<input id="email" name="email" placeholder="Enter Your Email" type="text">
+			
+			<button href="javascript:%20check_empty()" id="submit">Submit</button>
+			
+		</form>
+
+	</div>
+
+	<div id="fade" class="black_overlay"></div>
+		
+</body>
+
+<script src="javascript.js"></script>
+
+</html>
